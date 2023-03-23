@@ -1,0 +1,25 @@
+IDENTIFICATION DIVISION 
+PROGRAM-ID  Prog .
+DATA DIVISION
+WORKING-STORAGE SECTION 
+ 
+ A INTEGER.
+ H CHAR.
+ B FLOAT.
+ D STRING.
+ 
+ #ceci est un commentaire!
+ 
+PROCEDURE DIVISION 
+
+IF ( 2 .L. B):
+
+DISPLAY(" $ ceci est # chaine% & ":A|D|B|H ).
+ 
+END
+STOP RUN
+
+
+ 
+ 
+
